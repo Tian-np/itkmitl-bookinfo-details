@@ -9,3 +9,5 @@ spec:
   - port: 8080
   selector:
     app: bookinfo-dev-details
+
+    

@@ -11,11 +11,10 @@ spec:
   - host: itkmitl.bookinfo.dev.opsta.net
     http:
       paths:
-      # - path: /student4/details(/|$)(.*)
-      - path: http://itkmitl.bookinfo.dev.opsta.net/student4/details/*
+      - path: /student4/details(/|$)(.*)
         pathType: Prefix
         backend:
           service:
             name: bookinfo-dev-details
             port:
-              number: 8080
+              number: 8081
